@@ -1,0 +1,10 @@
+[package]
+name = "tic-tac-toe-sdk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+borsh = { workspace = true }
+solana-program = { workspace = true }
+thiserror = { workspace = true }
+tic-tac-toe = { workspace = true }
